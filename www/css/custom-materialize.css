@@ -1,0 +1,8 @@
+.app{height: 100vh;width: 100vw;}
+#side-menu-nav{ background-color: rgba(33, 29, 33, 0.9); margin: 0; }
+div .content-side-nav .collection > .collection-item{background-color: rgba(33, 29, 33, 0);}
+nav { background-color: #1d5876 !important; }
+.menu {border: 0px !important;}
+.menu a{padding-top: 9% !important; color: #FFF !important;}
+.menu a:not(.active):hover{background-color: #025252 !important;}
+.button-collapse{margin: 0px 10px !important;}
