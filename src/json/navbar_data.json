@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Sesión",
+    "link": "/",
+    "icon" : "perm_identity"
+  },
+  {
+    "label": "Noticias",
+    "link": "noticias",
+    "icon" : "chat_bubble_outline"
+  },
+  {
+    "label": "Horario",
+    "link": "horario",
+    "icon" : "schedule"
+  },
+  {
+    "label":"Tira de Materias",
+    "link":"tmaterias",
+    "icon" : "view_agenda"
+  },
+  {
+    "label":"Calendario",
+    "link":"calendario",
+    "icon" : "today"
+  },
+  {
+    "label": "Mapa",
+    "link": "mapa",
+    "icon" : "map"
+  },
+  {
+    "label": "Favoritos",
+    "link": "favoritos",
+    "icon" : "grade"
+  },
+  {
+    "label": "Configuracion",
+    "link": "conf",
+    "icon" : "settings"
+  }
+]

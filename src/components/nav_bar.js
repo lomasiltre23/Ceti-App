@@ -1,5 +1,5 @@
 import "../style/nav_bar_styles.css";
-
+let navbar_data = require("../json/navbar_data.json");
 import React, {Component} from "react"
 
 import NavbarAvatar from "./navbar_avatar_item"
@@ -21,6 +21,10 @@ class Navbar extends Component{
     });
   }
   render(){
+    var idKey = 0;
+    let links = navbar_data.map((data) => {
+      return <NavbarLink label={data.label} icon={data.icon} link={data.link} key={++idKey}/>
+    })
     return(
       <div class="navbar-fixed">
         <nav>
@@ -32,14 +36,7 @@ class Navbar extends Component{
             <div class="side-nav" id="side-menu-nav">
               <div class="collection">
                 <NavbarAvatar photo={avatarPhoto} name="Jose Carlos" last_name="Rodriguez Villarreal" grade="7" group="M"/>
-                <NavbarLink label="Sesión" icon="perm_identity" link="/"/>
-                <NavbarLink label="Noticias" icon="chat_bubble_outline" link="/"/>
-                <NavbarLink label="Horario" icon="schedule" link="/"/>
-                <NavbarLink label="Tira de Materias" icon="view_agenda" link="/"/>
-                <NavbarLink label="Calendario" icon="today" link="/"/>
-                <NavbarLink label="Mapa" icon="map" link="/"/>
-                <NavbarLink label="Favoritos" icon="grade" link="/"/>
-                <NavbarLink label="Configuracion" icon="settings" link="/"/>
+                {links}
               </div>
             </div>
           </div>

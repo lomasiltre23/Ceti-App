@@ -31,7 +31,12 @@ const common = {
 			{
 				test: /\.(png|jpg|)$/,
 				loader: 'url-loader?limit=200000',
-				include: PATHS.www,
+				include: PATHS.src,
+			},
+			{
+				test: /\.json$/,
+				loader:	'json-loader',
+				include: PATHS.src,
 			}
 		]
 	}
