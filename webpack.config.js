@@ -30,7 +30,7 @@ const common = {
 			},
 			{
 				test: /\.(png|jpg|)$/,
-				loader: 'url-loader?limit=200000',
+				loader: "file-loader",
 				include: PATHS.src,
 			},
 			{
