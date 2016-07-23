@@ -27,6 +27,11 @@ const common = {
 				test: /\.jsx?$/,
 				loader: 'babel?cacheDirectory',
 				include: PATHS.src,
+			},
+			{
+				test: /\.(png|jpg|)$/,
+				loader: 'url-loader?limit=200000',
+				include: PATHS.www,
 			}
 		]
 	}

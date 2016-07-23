@@ -19,6 +19,7 @@
     "react-router": "^2.6.0",
     "react-tappable": "^0.8.0",
     "reflux": "^0.4.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.12",
     "webpack-dev-server": "^1.14.1"
   },

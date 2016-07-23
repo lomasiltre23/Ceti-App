@@ -1,0 +1,37 @@
+.collection-item{
+  margin: 0px;
+  background-color: #FFF;
+}
+
+.collection-item > i{
+  float: left;
+  margin-top: -18px;
+  margin-right: 10px;
+}
+
+.collection-item.avatar{
+  height: 120px;
+  background-color: #1d5876
+}
+
+.navbar-fixed > nav {
+  background-color: #1d5876;
+}
+
+.collection {
+  border: 0px;
+  margin-top: 0px;
+}
+
+.collection a{
+  padding-top: 9% !important;
+  color: #1d5876 !important;
+}
+
+.collection a:not(.active):hover{
+  background-color: #1d5876 !important;
+}
+
+.button-collapse{
+  margin-left: 10px;
+}
