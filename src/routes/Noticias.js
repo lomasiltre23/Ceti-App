@@ -4,8 +4,8 @@ import samplePhoto from "../images/material.png";
 import sampleBig from "../images/big_sample.jpg";
 import sampleSmall from "../images/nodejs.png"
 
-import Navbar from "../components/nav_bar"
-import NewsItem from "../components/news_card_item"
+import Navbar from "../components/NAVBAR/nav_bar"
+import NewsItem from "../components/NAVBAR/news_card_item"
 
 class Noticias extends Component{
   constructor(){

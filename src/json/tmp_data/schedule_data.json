@@ -1,0 +1,194 @@
+{
+	"success": true,
+	"materias": {
+		"lunes": {
+			"regulares":[
+				{
+					"hora_inicio": "15:00",
+					"hora_fin": "16:50",
+					"duracion": "2h",
+					"materia": "PROYECTO I",
+					"grupo": "7M",
+					"edificio": "F",
+					"id_salon": "SL3",
+					"nombre_salon": "LABORATORIOS DE COMPUTACION Y SOFTWARE LIBRE",
+					"maestro": "Juan Jesus Rubio Lopez",
+					"cruce": null
+				},
+				{
+					"hora_inicio": "16:50",
+					"hora_fin": "18:40",
+					"duracion": "2h",
+					"materia": "INOVACION Y HABILIDADES EMPRENDEDORAS",
+					"grupo": "7M",
+					"edificio": "D",
+					"id_salon": "205",
+					"nombre_salon": "AULAS",
+					"maestro": "Pedro Antonio Hernandez Contreras",
+					"cruce": "SISTEMAS EXPERTOS"
+				},
+		 		{
+					"hora_inicio": "18:40",
+					"hora_fin": "19:35",
+					"duracion": "1h",
+					"materia": "PROCESAMIENTO DE IMAGENES",
+					"grupo": "7M",
+					"edificio": "L",
+					"id_salon": "102",
+					"nombre_salon": "AULAS",
+					"maestro": "Jose Carlos Madrigal Perez",
+					"cruce": null
+				}
+			],
+			"irregulares":[
+				{
+					"status": "I",
+					"hora_inicio": "16:50",
+					"hora_fin": "18:40",
+					"duracion": "2h",
+					"materia": "SISTEMAS EXPERTOS",
+					"grupo": "7M",
+					"edificio": "D",
+					"id_salon": "205",
+					"nombre_salon": "AULAS",
+					"maestro": "Carlos Adrian Lopez Lopez",
+					"cruce": "INOVACION Y HABILIDADES EMPRENDEDORAS"
+				}
+			],
+			"condicionadas":[]
+		},
+		"martes": {
+			"regulares":[
+				{
+					"hora_inicio": "15:00",
+					"hora_fin": "16:50",
+					"materia": "FUNDAMENTOS DE ENRURAMIENTO",
+					"grupo": "7M",
+					"edificio": "F",
+					"id_salon": "LREDI",
+					"nombre_salon": "LABORATORIO DE REDES I",
+					"maestro": "Maria Alejandra Espinoza Chavez",
+					"cruce": null
+				},
+		 		{
+					"hora_inicio": "16:50",
+					"hora_fin": "18:40",
+					"duracion": "2h",
+					"materia": "INGLES VII",
+					"grupo": "7M",
+					"edificio": "G",
+					"id_salon": "203",
+					"nombre_salon": "AULAS",
+					"maestro": "Alejandra Isabel Lopez Hernandez",
+					"cruce": "PROBABILIDAD Y ESTADISTICA"
+				},
+		 		{
+					"hora_inicio": "18:40",
+					"hora_fin": "19:35",
+					"duracion": "1h",
+					"materia": "PROCESAMIENTO DE IMAGENES",
+					"grupo": "7M",
+					"edificio": "L",
+					"id_salon": "102",
+					"nombre_salon": "AULAS",
+					"maestro": "Jose Carlos Madrigal Perez",
+					"cruce": null
+				},
+		 		{
+					"hora_inicio": "19:35",
+					"hora_fin": "21:25",
+					"duracion": "1h",
+					"materia": "PROYECTO I",
+					"grupo": "7M",
+					"edificio": "F",
+					"id_salon": "SL3",
+					"nombre_salon": "LABORATORIOS DE COMPUTACION Y SOFTWARE LIBRE",
+					"maestro": "Juan Jesus Rubio Lopez",
+					"cruce": "GRAFICOS 2D Y 3D"
+				}
+			],
+			"irregulares":[
+				{
+					"hora_inicio": "20:30",
+					"hora_fin": "21:25",
+					"duracion": "1h",
+					"materia": "GRAFICOS 2D Y 3D",
+					"grupo": "7M",
+					"edificio": "F",
+					"id_salon": "205",
+					"nombre_salon": "AULAS",
+					"maestro": "Juan Jesus Rubio Lopez",
+					"cruce": "PROYECTO I"
+				}
+			],
+			"condicionadas":[
+				{
+					"hora_inicio": "16:50",
+					"hora_fin": "18:40",
+					"duracion": "2h",
+					"materia": "PROBABILIDAD Y ESTADISTICA",
+					"grupo": "7M",
+					"edificio": "B",
+					"id_salon": "205",
+					"nombre_salon": "AULAS",
+					"maestro": "Isaac David Sosa Gutierrez",
+					"cruce": "INGLES VII"
+				}
+			]
+		},
+		"miercoles": {
+			"regulares":[
+				{
+					"hora_inicio": "15:00",
+					"hora_fin": "16:50",
+					"duracion": "2h",
+					"materia": "PROYECTO I",
+					"grupo": "7M",
+					"edificio": "F",
+					"id_salon": "SL3",
+					"nombre_salon": "LABORATORIOS DE COMPUTACION Y SOFTWARE LIBRE",
+					"maestro": "Juan Jesus Rubio Lopez",
+					"cruce": null
+				}
+			],
+			"irregulares":[],
+			"condicionadas":[]
+		},
+		"jueves": {
+			"regulares":[
+				{
+					"hora_inicio": "15:00",
+					"hora_fin": "16:50",
+					"duracion": "2h",
+					"materia": "PROYECTO I",
+					"grupo": "7M",
+					"edificio": "F",
+					"id_salon": "SL3",
+					"nombre_salon": "LABORATORIOS DE COMPUTACION Y SOFTWARE LIBRE",
+					"maestro": "Juan Jesus Rubio Lopez",
+					"cruce": null
+				}
+			],
+			"irregulares":[],
+			"condicionadas":[]
+		},
+		"viernes": {
+			"regulares":[
+				{
+					"hora_inicio": "15:00",
+					"hora_fin": "16:50",
+					"duracion": "2h",
+					"materia": "PROYECTO I",
+					"grupo": "7M",
+					"edificio": "F",
+					"id_salon": "SL3",
+					"nombre_salon": "LABORATORIOS DE COMPUTACION Y SOFTWARE LIBRE",
+					"maestro": "Juan Jesus Rubio Lopez",
+					"cruce": null
+				}
+			],
+			"irregulares":[],
+			"condicionadas":[]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.course-title{
+  margin-bottom: 5px;
+  max-width: 65%;
+}
+
+.course-crossing-icon{
+  top: 55px !important;
+  right: 11px !important;
+}
+
+.course-time{
+  top: 12px !important;
+}
+
+.course-text{
+  font-size: 9pt;
+  line-height: 1.3rem;
+}
+
+.course-color-bar{
+  top: 5px !important;
+  left: 5px;
+  width: 5px;
+  height: 90%;
+  background-color: #2e7d32;
+  border-radius: 10px;
+}
+
+.indicator{
+  background-color: #1d5876 !important;
+  height: 3px !important;
+}
