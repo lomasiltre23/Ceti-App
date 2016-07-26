@@ -3,3 +3,6 @@ platforms/
 plugins/
 hooks/
 src/images/
+www/*.png
+www/*.jpg
+www/bundle.js
